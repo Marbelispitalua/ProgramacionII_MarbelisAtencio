@@ -14,4 +14,23 @@ Datos_personales = ['Marbelis' , '18' , '1.57' , 'Soltera' , 'Barrio_Boston']
 
 Datos_personales.append()
 
-print(Datos_personales)
+print(Datos_personales) 
+
+It_companies = ["Facebook" , "Google" , "Microsoft" , "Apple" , "IBM" , "Oracle" , "Amazon"]
+
+It_companies.insert(0, "Pessi")
+
+if "Facebook" in It_companies
+    print(True)
+
+It_companies.sort()
+
+print(It_companies)
+
+It_companies.pop(2)
+
+print(It_companies)
+
+It_companies.clear
+
+print(It_companies)
